@@ -4,7 +4,7 @@ This repository contains solutions to projects from the book [Operating Systems:
 
 ## Project List
 
-- [Initial Key-Value Store](01%20-%20initial-kv/solution.c)
+- [01-initial-kv](01-initial-kv/solution.c)
   - Implements a minimal persistent key-value store supporting put, get, delete, all, and clear operations via command-line arguments.
 
 _More projects and solutions will be added to this repository over time._
@@ -13,7 +13,7 @@ _More projects and solutions will be added to this repository over time._
 
 1. Navigate to the project directory and compile the solution, for example:
    ```sh
-   gcc -o kv "01 - initial-kv/solution.c" --Wall
+   gcc -o kv "01-initial-kv/solution.c" --Wall
    ```
 2. Run the program with the required arguments, for example:
    ```sh
